@@ -182,6 +182,14 @@ Créer le fichier (ex. `job.sh`) avec les ressources nécessaire et les commande
 # Charger les modules nécessaires
 module load python/3.13
 
+# Créer l'environnement virtuel sur le disque local
+virtualenv --no-download $SLURM_TMPDIR/env
+source $SLURM_TMPDIR/env/bin/activate
+
+# mettre à jour pip et installer les requis python
+pip install --no-index --upgrade pip
+pip install --no-index -r ~/requirements.txt
+
 # Exécuter vos commandes
 python mon_script_python.py
 ```
