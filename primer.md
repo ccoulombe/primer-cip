@@ -15,6 +15,14 @@ Le wiki regorge d'informations pertinente. Vous trouverez certainement réponse 
 
 * [Documentation technique](https://docs.alliancecan.ca/wiki/Technical_documentation)
 
+# Anaconda / Conda / Mamba / Micromamba 🐍
+
+> [!CAUTION]
+> Conda n'est pas supporté et ne fonctionne pas correctement sur les systèmes de calcul.
+> Son utilisation apportera plusieurs problèmes.
+
+Conda est donc à éviter, voir : [Anaconda](https://docs.alliancecan.ca/wiki/Anaconda)
+
 # Utilisation d'un système de calcul
 Vous vous connectez à l'aide d'un terminal et vous attérissez sur un noeud de connexion. Ce noeud est partagé avec tous les autres usagers, et vous pouvez y travailler, configurer, faire de courts tests et préparer vos tâches de calcul.
 
