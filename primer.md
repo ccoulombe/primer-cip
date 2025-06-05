@@ -32,7 +32,8 @@ Vous pouvez transférer vos données depuis votre ordinateur vers le système de
 
 Depuis le noeud de connexion, vous pouvez télécharger vos jeux de données (au besoin) à l'aide de `wget` par exemple.
 
-Note: Les noeuds de calculs n'ont pas accès à internet.
+> [!NOTE]
+> Les noeuds de calculs n'ont pas accès à internet.
 
 ![image](images/transfert-donnees.png)
 
@@ -92,7 +93,8 @@ pip install --no-index --upgrade pip
 ```
 5. Installer un wheel
 
-Note: les noeuds de calculs n'ont pas accès à internet et donc pas à PyPI!
+> [!NOTE]
+> les noeuds de calculs n'ont pas accès à internet et donc pas à PyPI!
 
 Depuis la wheelhouse:
 ```bash
@@ -113,7 +115,8 @@ python -c 'import numpy'
 
 ## Installation paquet R
 
-Les noeuds de calculs n'ayant pas accès à internet, il est primordial d'installer les paquets R depuis un noeud de connexion.
+> [!NOTE]
+> Les noeuds de calculs n'ayant pas accès à internet, il est primordial d'installer les paquets R depuis un noeud de connexion.
 
 [Référence](https://docs.alliancecan.ca/wiki/R)
 
@@ -158,7 +161,8 @@ R -f mon_script.R
 ```
 
 ## Soumission d'une tâche
-Rappel: les noeuds de calcul n'ont pas accès à internet.
+> [!NOTE]
+> Rappel: les noeuds de calcul n'ont pas accès à internet.
 
 Pour soumettre une tâche de calcul, il faut créer un fichier de soumission et utiliser la commande `sbatch` afin de soumettre notre script.
 1. Créer un fichier de soumission
