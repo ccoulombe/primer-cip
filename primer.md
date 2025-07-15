@@ -34,6 +34,14 @@ Tous les noeuds ont accès aux différents espaces de stockage (`/home`, `/proje
 
 L'ordonnanceur utilise le principe de [fair-share](https://docs.alliancecan.ca/wiki/Job_scheduling_policies#Priority_and_fair-share), soit plus vous calculer (utiliser de ressources), plus votre priorité diminue, et moins vous calculer, plus votre priorité se rétablie.
 
+Pour vous connecter au système, nous utilisons la commande `ssh` depuis un terminal sur votre ordinateur.
+```bash
+ssh <votre nom utilisateur>@<systeme>.alliancecan.ca
+```
+
+Si vous utiliser un système d'exploitation :
+- MacOS ou Linux, vous avez déjà un terminal
+- Windows, vous pouvez utiliser PowerShell ou installer MobaXterm
 
 ## Transfert de données
 Vous pouvez transférer vos données depuis votre ordinateur vers le système de calcul à l'aide de `scp` ou un client `sftp` (tel que `FileZilla`).
